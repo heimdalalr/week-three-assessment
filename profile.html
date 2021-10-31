@@ -3,6 +3,8 @@
 <head>
 	<title>Profile page</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet" />
 	<link href="styles.css" rel="stylesheet">
 
 </head>
@@ -20,10 +22,12 @@
             <p class="title">Sewist and Doll Collector</p>
             <p>Bright Paths Program</p>
             <a href="#"><i class="fa fa-instagram"></i></a>
-            <a href="#"><i class="fa fa-envelope-square"></i></a>
-            <a href="#"><i class="fa fa-github"></i></a>
+            <a href="mailto:xxxxx@fakeemail.com?subject=Mailing from your website"><i class="fa fa-envelope-square"></i></a>
+            <a href="https://github.com/heimdalalr"><i class="fa fa-github"></i></a>
             <a href="#"><i class="fa fa-facebook"></i></a>
-            <p><button>Contact</button></p>
+            <p><button class="fill" id="color" onclick="favColor()">My Favorite Color</button>
+                <button class="fill" id="place" onclick="favPlace()">My Favorite Place</button>
+                <button class="fill" id="ritual" onclick="favRitual()">My Favorite Ritual</button></p>
           </div>
     </main>
 
@@ -31,7 +35,7 @@
 <br>
 
 <a href="./home.html"><< Back </a>
-<script src="about.js"></script>
+<script src="profile.js"></script>
 
 </body>
 </html>
