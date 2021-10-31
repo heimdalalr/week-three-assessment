@@ -1,4 +1,4 @@
 Html and CSS markup languages along with JavaScript the programming language work together to make
 Stylish and dynamic websites and applications. Html is responsible for the frames, bones or content of the webpage. CSS is responsible for the presentation or aesthetics. Finally, JavaScript is responsible for the interactive effects such as loading data from remote servers or building web applications.
 
-In simpler terms HTML would be the nouns, CSS the adjectives and JavaScript would be the verbs.
+In simpler terms HTML would be the nouns, CSS the adjectives and JavaScript would be the verbs. The paper itself would consist of the internet which is the message. Transmitted data using a packet routing network that breaks data into tiny parts called packets so they can travel across the world.
