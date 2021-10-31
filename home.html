@@ -16,9 +16,18 @@
 
 	<content>
 		<h1>Welcome to this little website.</h1>
-		<!-- insert hello world here -->
+		Hello World.
 
-		<img src="https://pbs.twimg.com/profile_images/1267905793610772480/rks7KARB_400x400.jpg">
+		<img src="https://static.thenounproject.com/png/65309-200.png" id="ducky" onmouseover="Alert(event)">
+		<p>Thank you for visiting our website.</p>
+
+		<div> You are:
+			<ul>
+				<li>A great listener!</li>
+				<li>Always on time!</li>
+				<li>An amazing friend!</li>
+			  </ul>
+		</div>
 
 		<h2>Contact Us</h2>
 		<form id="contact">
@@ -28,9 +37,32 @@
 			Message:
 			<input type="textarea">
 
-			<input type="submit">
+			
 
-
+			<fieldset>
+				<legend>How did you hear about us</legend>
+				<ul>
+					<li>
+					  <label for="title_1">
+						<input type="radio" id="title_1" name="title" value="google" >
+						Google
+					  </label>
+					</li>
+					<li>
+					  <label for="title_2">
+						<input type="radio" id="title_2" name="title" value="friend">
+						Friend
+					  </label>
+					</li>
+					<li>
+					  <label for="title_3">
+						<input type="radio" id="title_3" name="title" value="other">
+						Other
+					  </label>
+					</li>
+				</ul>
+			  </fieldset>
+			  <input type="submit">
 		</form>
 
 	</content>
